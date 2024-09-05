@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="JavaScript" type="NodeJSConfigurationType" singleton="false" path-to-node="$APPLICATION_CONFIG_DIR$/node/versions/22.7.0/node" path-to-js-file="DataTypes.js" working-dir="$PROJECT_DIR$/src">
+    <method v="2" />
+  </configuration>
+</component>

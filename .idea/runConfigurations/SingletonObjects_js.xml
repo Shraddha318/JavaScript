@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SingletonObjects.js" type="NodeJSConfigurationType" singleton="false" nameIsGenerated="true" path-to-js-file="SingletonObjects.js" working-dir="$PROJECT_DIR$/src">
+    <output_file is_save="true" />
+    <method v="2" />
+  </configuration>
+</component>
