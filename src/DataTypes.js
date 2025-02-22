@@ -16,4 +16,11 @@ console.log(s)
 let old=`hello ${s}!`//String interpolation
 console.log(old);
 
+let demo=`Value is ${2*3}!`;
+
+//Symbol guarantees uniqueness
+let sm1=Symbol("x")
+let sm2=Symbol("x");
+console.log(sm1==sm2); //false
+
 //const var canot be changed after it is defined
