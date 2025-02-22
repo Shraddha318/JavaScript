@@ -14,12 +14,17 @@ console.log(1+"2"+1+"3")//conversion to string
 console.log(1+1+"3")
 a=1;
 a++;
-
 console.log(a)
+++a;
+console.log(a)
+let expo=2**2;
+let mul=2*2;
+console.log(expo);
+console.log(mul);
 console.log("1">1)
 // === Checks values as well as datatypes
 console.log(2===2)
-console.log(a==="1")
+console.log(a==="1")//
 //Symbol
 const q=(Symbol('123'))
 const w=(Symbol('123'))
