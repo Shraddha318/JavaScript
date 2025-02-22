@@ -1,7 +1,7 @@
-// const arr=[1,2,3,4,'Abc']
-// for(let i=0;i<arr.length;i++){
-//     console.log(arr[i])
-// }
+const arr=[1,2,3,4,'Abc']
+for(let i=0;i<arr.length;i++){
+    console.log(arr[i])
+}
 
 // for(let i=0;i<10;i++){
 //     const ele=i;

@@ -4,7 +4,7 @@
 //     console.log("Exe")
 // })()
  //():First Parenthesis->Function definition
-//():Second Parenthesis_>Execution call
+//():Second Parenthesis->Execution call
 
 //In Arrow function form
 //For two IIFE in one program ,use semicolon at the end

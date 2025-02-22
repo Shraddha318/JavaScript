@@ -1,4 +1,4 @@
-"use strict";//treat all java codes as newer versions
+"use strict";//treat all javaScript codes as newer versions
 //alert("Hello World!");// we are using nodeJs, not browser
 console.log("Shraddha")
 //number,bigInt,String,Boolean,Float,Double,null(standalone value),undefined,Symbol)

@@ -14,6 +14,7 @@ console.log(1+"2"+1+"3")//conversion to string
 console.log(1+1+"3")
 a=1;
 a++;
+
 console.log(a)
 console.log("1">1)
 // === Checks values as well as datatypes

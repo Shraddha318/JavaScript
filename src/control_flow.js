@@ -4,12 +4,12 @@
 // }
 
 //if-else
-// if(2==="2"){
-//     console.log(true);
-// }
-// else{
-//     console.log(false);
-// }
+if(2==="2"){
+    console.log(true);
+}
+else{
+    console.log(false);
+}
 
 //if-else if
 // const a=20;
