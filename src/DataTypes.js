@@ -13,4 +13,7 @@ console.log(v)
 console.log(typeof s)//unable to convert letter so NaN as O/P ,NaN :Not a Number
 console.log(s)
 
+let old=`hello ${s}!`//String interpolation
+console.log(old);
+
 //const var canot be changed after it is defined
