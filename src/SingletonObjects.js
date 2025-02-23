@@ -4,6 +4,23 @@ user.name="Shraddha"
 user.email="shraddha@gmail.com"
 user.password="123456"
 console.log(user)
+
+const username={
+    name:'Shraddha',
+    isLoggedIn:false
+};
+console.log(username)
+console.log(username.name)
+
+username.name="s"
+console.log(username.name);
+username.age="20";
+console.log(username.age);
+
+let obj={};
+console.log(obj);
+console.log(typeof obj);
+
 const user1={
     fullname:{
         userfullname:{
