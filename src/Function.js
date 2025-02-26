@@ -69,3 +69,4 @@
 // }
 // console.log("Second element is: "+getArray(myArray));
 
+func

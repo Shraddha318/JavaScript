@@ -26,3 +26,49 @@
 // console.log(Array.of(1,2,3,4,5,6,7,7,8,9))
 
 
+// const tea=['green tea','black tea','oolong tea']
+// const first=tea[0];
+// console.log(first);
+//
+// const cities=['London','Tokyo','Paris','New York']
+// const third=cities[2]
+// console.log(third)
+//
+// const teaTypes=new Array('Herbal tea','White tea','Masala chai');
+// teaTypes[1]='Jasmine tea'
+// console.log(teaTypes[1])
+
+// const citiesVisited=['Mumbai,Sydney']
+// citiesVisited.push('Berlin')
+// console.log(citiesVisited[citiesVisited.length-1])
+// citiesVisited[citiesVisited.length]="Amsterdam"
+// console.log(citiesVisited)
+//
+// const teaOrder=["Chai","Iced tea","Matcha","Earl grey"]
+// teaOrder.pop();
+// console.log(teaOrder);
+
+//Soft copy
+// const popularTree=['Grren tea','Oolong tea','Chai'];
+// const softCopyTeas=popularTree;
+// popularTree.pop()
+// console.log(softCopyTeas)
+// console.log(popularTree)
+
+//Hard copy
+const topCitties=['Berlin','Singapore','New York']
+const hardCopyCities=[...topCitties]
+console.log(hardCopyCities)
+topCitties.pop()
+console.log(hardCopyCities)
+
+
+//Merge two array
+const euro=['Paris','Rome']
+const asia=['Tokyo','BangKok']
+let world=euro.concat(asia)
+console.log(world)
+
+const cityBucket=["Kyoto","Cape town","London","Vancouver"];
+let isLondonInList=cityBucket.includes('London')
+console.log(isLondonInList)
