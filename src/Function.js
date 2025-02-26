@@ -69,4 +69,46 @@
 // }
 // console.log("Second element is: "+getArray(myArray));
 
-func
+// function makeTea(typeOfTea){
+//     return `Making ${typeOfTea}`
+// }
+//
+// console.log(makeTea('Green tea'));
+
+// function OrderTea(teaType){
+//     function confirmOrder(){
+//         return `Order Confirmed for ${teaType}`
+//     }
+//     return confirmOrder();
+// }
+//
+// console.log(OrderTea('Chai'))
+
+/*
+// First-class function: A function that can be treated as a variable.
+function makeTea(tea) {
+ return tea;
+}
+
+// A function that takes another function as a parameter
+function process(tea) {
+ // Calling the passed function with 'Earl grey' as the argument
+ return tea('Earl grey');
+}
+
+// Assigning the result of process(makeTea) to variable 'x'
+let x = process(makeTea);
+
+// Logging the value of 'x' to the console
+console.log(x); // Output: 'Earl grey'
+*/
+
+function a(teatype){
+ return `Making ${teatype}`;
+}
+
+function createtea(a){
+ return a('Green tea');
+}
+let c=createtea(a);
+console.log(c)

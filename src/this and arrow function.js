@@ -37,5 +37,18 @@
 // const addTwo=(n1,n2)=>(n1+n2);
 // console.log(addTwo(3,2))
 
-const print=(n1,n2)=>({username:"SHRADDHA"});
-console.log(print())
+// const print=(n1,n2)=>({username:"SHRADDHA"});
+// console.log(print())
+
+// const greet=()=>{
+//     console.log('Abc')
+// }
+
+// const calculate=(price,quantity)=>{
+//     return price*quantity;
+// }
+// let total=calculate(10,100);
+// console.log(total);
+
+
+
