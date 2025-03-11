@@ -27,3 +27,21 @@ function Hello(){
 setTimeout(()=>{
     Hello();
 },4000);
+
+//Async function with multiple delay
+function simulateMultipleTasks() {
+    setTimeout(() => {
+        console.log("Task 1 finished"); // 1 second delay
+    }, 1000);
+
+    setTimeout(() => {
+        console.log("Task 2 finished"); // 2 seconds delay
+    }, 2000);
+
+    setTimeout(() => {
+        console.log("Task 3 finished"); // 3 seconds delay
+    }, 3000);
+}
+
+// Call the function to see the output
+simulateMultipleTasks();
