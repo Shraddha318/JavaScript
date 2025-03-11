@@ -1,0 +1,15 @@
+Git and Github are different
+Git is a software and Github are services
+
+Git is a version control system.It track files for changes
+
+
+=> Repo
+- Git on system vs tracking
+1. git --version
+2. git status
+3. git init (onr time per project)
+4. .git-> hidden folder to keep history of all files and sub folders
+
+=> Commit
+1.
