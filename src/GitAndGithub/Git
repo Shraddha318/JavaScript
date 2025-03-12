@@ -1,15 +1,56 @@
-Git and Github are different
-Git is a software and Github are services
+Git and GitHub are different:
 
-Git is a version control system.It track files for changes
+1. **Git**:
+   - Git is a software tool installed locally on your computer.
+   - It is a distributed version control system (DVCS) that helps track changes made to files, manage versions, and collaborate effectively.
+   - Git works locally on your system and does not require an internet connection for most operations.
 
+2. **GitHub**:
+   - GitHub is a cloud-based hosting service for Git repositories.
+   - It provides an online platform to store repositories remotely, collaborate with others, review code, manage issues, and host projects (publicly or privately).
 
-=> Repo
-- Git on system vs tracking
-1. git --version
-2. git status
-3. git init (onr time per project)
-4. .git-> hidden folder to keep history of all files and sub folders
+---
 
-=> Commit
-1.
+=> **Repository Commands**:
+1. `git --version`: Checks the installed version of Git on your local machine.
+2. `git status`: Displays the current status of your repository (staged, unstaged, and untracked files).
+3. `git init`: Initializes a new Git repository in your project directory (used only once per project).
+4. `.git`: A hidden folder created by `git init`, storing the history and metadata of file changes in the repository.
+
+---
+
+=> **Commit Commands**:
+1. `git init`: Create file or files.
+2. `git add file1 file2`: Stages the specified files.
+3. `git status`: Check staged files.
+4. `git commit -m "add file"`: Commit staged files with a message.
+5. `git log`: View detailed commit history.
+6. `git log --oneline`: Displays concise commit history.
+
+---
+
+=> **Git Configuration Commands**:
+1. `git config`: General command for configuring Git.
+2. `git config --global`: Set global configuration settings.
+3. `git config --global user.name "name"`: Set the Git username.
+4. `git config --global user.email "email"`: Set the Git email address.
+5. `git config --global core.editor "code --wait"`: Configure VS Code as the default editor.
+6. `git config --global core.editor "<path-to-intellij-executable>`: Set IntelliJ as the default editor.
+
+---
+
+=> **.gitignore Commands**:
+1. `echo # Enter ignored files > .gitignore`: Create a `.gitignore` file and specify ignored files.
+2. `type .gitignore`: Display the contents of the `.gitignore` file.
+
+---
+
+=> **Branch Commands**:
+1. `git branch`: List branches.
+2. `git branch nav`: Create a new branch named "nav".
+3. `git checkout nav`: Switch to the branch named "nav".
+
+=> Merging
+1. git merge branch_name
+2. git branch -d branch_name
+
